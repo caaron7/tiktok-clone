@@ -7,19 +7,19 @@ export interface UserContextTypes {
   checkUser: () => Promise<void>;
 }
 
-export interface Profile {
+export interface User {
   id: string;
   name: string;
   bio: string;
   image: string;
 }
 
-export interface User {
+export interface Profile {
   id: string;
   user_id: string;
   name: string;
-  bio: string;
   image: string;
+  bio: string;
 }
 
 export interface RandomUsers {
